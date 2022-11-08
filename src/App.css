@@ -1,38 +1,99 @@
 .App {
+  margin-top: 50px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.Applist{
+  width: 90%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 30px auto;
 }
+
+.inputTitle{
+  height: 30px;
+}
+
+.inputTextarea{
+  margin-top: 20px;
+  height: 100px;
+}
+
+
+.submitButton {
+  margin-top: 20px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.mantine-15po0m8 {
+  height: 36px;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+.varidation{
+  margin: 0 0 30px;
+  color: rgb(255, 55, 0);
+}
+
+.todoList{
+  padding: 90px 20px 30px;
+  width: 100%;
+  min-height: 300px;
+  background: rgb(218, 218, 218);
+  border: 2px solid rgba(0,0,0,0.5);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 5%;
+  position: relative;
+}
+
+.todoListTitle{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 400px;
+  margin: 0;
+}
+
+li{
+  list-style:none;
+  position: relative;
+}
+
+.questionArea{
+  display: flex;
+  flex-direction: column;
+}
+.inputTileValue{
+  height: 30px;
+  margin-bottom: 10px;
+}
+.inputTextareaValue{
+  height: 100px;
+}
+
+
+
+.inputCheckbox{}
+.inputDelete{}
+.inputSolve{}
