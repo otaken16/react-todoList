@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import NumberInputPage from './components/mantain';
 import { Button } from '@mantine/core';
-import { Autocomplete, CloseButton, Group, Checkbox } from '@mantine/core';
+import { CloseButton, Group, Checkbox } from '@mantine/core';
 
 function App(this: any) {
   const [varidation,setVaridation] = useState("");
